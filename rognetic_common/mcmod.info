@@ -1,0 +1,18 @@
+[
+{
+	"modid" : "Rognetic",
+	"name" : "Rognetic",
+	"version" :  "0.0.1a",
+	"credits" : "Thanks to Vswe's modding courses",
+	"authors" : [
+	"Aerospacesmith"
+	],
+	"description" : "Modular Power Generation",
+	"url" : "",
+	"updateUrl" : "",
+	"logoFile" : "rognetic_logo.png",
+	"parent" : "",
+	"screenshots" : [
+	]
+}
+]
