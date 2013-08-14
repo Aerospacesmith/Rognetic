@@ -1,6 +1,5 @@
 package rognetic.common.core;
 
-import rognetic.common.items.Items;
 import rognetic.common.items.ModItems;
 import rognetic.common.util.network.PacketHandler;
 import cpw.mods.fml.common.Mod;
@@ -46,7 +45,7 @@ public class Rognetic {
         @EventHandler
         public void preInit(FMLPreInitializationEvent event) {
         	ConfigHandler.init(event.getSuggestedConfigurationFile());
-        	Items.init();
+
         	ModItems.init();
         	
         	proxy.registerSounds();
@@ -55,8 +54,8 @@ public class Rognetic {
        
         @EventHandler
         public void load(FMLInitializationEvent event) {
-        	ModItems.init();
-        	Items.addNames();        
+
+      
         }
        
         @EventHandler

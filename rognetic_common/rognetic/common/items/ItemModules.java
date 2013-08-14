@@ -3,6 +3,8 @@ package rognetic.common.items;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.Item;
 import rognetic.common.core.ModInformation;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 /**
 * Rognetic
@@ -15,12 +17,18 @@ import rognetic.common.core.ModInformation;
 */
 
 public class ItemModules extends Item {
+	
     public ItemModules(int id) {
         super(id);
     }
 
+    
+    
     @Override
-    public void registerIcons(IconRegister par1IconRegister) {
-        this.itemIcon = par1IconRegister.registerIcon(ModInformation.ID.toLowerCase() + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+    @SideOnly(Side.CLIENT)
+    public void registerIcons(IconRegister iconRegister) {
+
+        itemIcon = iconRegister.registerIcon(ModInformation.ID.toLowerCase() + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+
     }
 }

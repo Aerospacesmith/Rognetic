@@ -24,17 +24,24 @@ public class ModItems {
 
     public static Item gearbox;
     public static Item turbine;
+	public static Item wand;
     
     public static void init() {
-        gearbox = new ItemModules(ItemIds.GEARBOX)
+        gearbox = new ItemModules(ItemIds.GEARBOX_DEFAULT)
                 .setMaxStackSize(64)
                 .setCreativeTab(CreativeTabs.tabMisc)
                 .setUnlocalizedName("gearbox");
         
-        turbine = new ItemModules(ItemIds.TURBINE)
+        turbine = new ItemModules(ItemIds.TURBINE_DEFAULT)
                 .setMaxStackSize(64)
                 .setCreativeTab(CreativeTabs.tabMisc)
                 .setUnlocalizedName("turbine");
+        
+        wand 	= new ItemWand(ItemIds.WAND_DEFAULT)
+        		.setMaxStackSize(1)
+        		.setCreativeTab(CreativeTabs.tabCombat)
+        		.setUnlocalizedName("rocketWand");
+        
         
 
         initItemRecipes();
@@ -49,17 +56,17 @@ public class ModItems {
         	"wgw",
         	"gig",
         	"wgw",
-        	Character.valueOf('w'), Block.planks,
-        	Character.valueOf('i'), Item.ingotIron,
-        	Character.valueOf('g'), BuildCraftCore.ironGearItem
+        	'w', Block.planks,
+        	'i', Item.ingotIron,
+        	'g', BuildCraftCore.ironGearItem
         });
 
         GameRegistry.addRecipe(new ItemStack(turbine), new Object[] {
         	"i",
         	"g",
         	"i",
-        	Character.valueOf('i'), Item.ingotIron,
-        	Character.valueOf('g'), BuildCraftCore.ironGearItem
+        	'i', Item.ingotIron,
+        	'g', BuildCraftCore.ironGearItem
         });
 
         
@@ -69,6 +76,7 @@ public class ModItems {
     private static void initLanguages() {
         LanguageRegistry.addName(gearbox, "Gearbox");
         LanguageRegistry.addName(turbine, "Turbine");
+        LanguageRegistry.addName(wand, "Wand of the Rocket");
 
     }
 	
