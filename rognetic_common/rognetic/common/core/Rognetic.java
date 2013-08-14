@@ -20,7 +20,7 @@ public class Rognetic {
         public static Rognetic instance;
        
         // Says where the client and server 'proxy' code is loaded.
-        @SidedProxy(clientSide="mods.rognetic.client.ClientProxy", serverSide="mods.rognetic.common.core.CommonProxy")
+        @SidedProxy(clientSide="rognetic.client.ClientProxy", serverSide="rognetic.common.core.CommonProxy")
         public static CommonProxy proxy;
        
         @EventHandler

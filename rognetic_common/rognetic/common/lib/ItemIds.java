@@ -2,11 +2,11 @@ package rognetic.common.lib;
 
 
 /**
-* Still-Hungry
+* Rognetic
 *
 * ItemIds
 *
-* @author 17cupsofcoffee
+* @author Aerospacesmith
 * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
 *
 */

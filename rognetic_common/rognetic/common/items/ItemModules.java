@@ -1,9 +1,8 @@
 package rognetic.common.items;
 
-import rognetic.common.core.ModInformation;
-import rognetic.common.core.Rognetic;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.Item;
+import rognetic.common.core.ModInformation;
 
 /**
 * Rognetic

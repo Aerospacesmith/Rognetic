@@ -3,14 +3,14 @@
 	"modid" : "Rognetic",
 	"name" : "Rognetic",
 	"version" :  "0.0.1a",
-	"credits" : "Thanks to Vswe's modding courses",
+	"credits" : "Thanks to Vswe's & Pahimar's modding courses",
 	"authors" : [
 	"Aerospacesmith"
 	],
 	"description" : "Modular Power Generation",
 	"url" : "",
 	"updateUrl" : "",
-	"logoFile" : "rognetic_logo.png",
+	"logoFile" : "\resources\assets\rognetic\textures\logo\logo.png",
 	"parent" : "",
 	"screenshots" : [
 	]
