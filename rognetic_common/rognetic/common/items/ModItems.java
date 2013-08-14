@@ -42,17 +42,28 @@ public class ModItems {
         initLanguages();
     }
 
+    
     private static void initItemRecipes() {
-        ItemStack plankStack = new ItemStack(Block.planks);
-        ItemStack ingotIronStack = new ItemStack(Item.ingotIron);
-        ItemStack gearIronStack = new ItemStack(BuildCraftCore.ironGearItem);
         
+        GameRegistry.addRecipe(new ItemStack(gearbox), new Object[] {
+        	"wgw",
+        	"gig",
+        	"wgw",
+        	Character.valueOf('w'), Block.planks,
+        	Character.valueOf('i'), Item.ingotIron,
+        	Character.valueOf('g'), BuildCraftCore.ironGearItem
+        });
 
-        GameRegistry.addRecipe(new ItemStack(gearbox), "wgw", "gig", "wgw",
-                'w', plankStack, 'i', ingotIronStack, 'g', gearIronStack);
-        GameRegistry.addRecipe(new ItemStack(turbine), "i", "g", "i",
-                'i', ingotIronStack, 'g', gearIronStack);
+        GameRegistry.addRecipe(new ItemStack(turbine), new Object[] {
+        	"i",
+        	"g",
+        	"i",
+        	Character.valueOf('i'), Item.ingotIron,
+        	Character.valueOf('g'), BuildCraftCore.ironGearItem
+        });
 
+        
+        
     }
 
     private static void initLanguages() {

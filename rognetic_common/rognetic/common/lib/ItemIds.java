@@ -13,11 +13,11 @@ package rognetic.common.lib;
 
 public class ItemIds {
 
-    public static int GEARBOX_DEFAULT = 27534;
-    public static int TURBINE_DEFAULT = 27641;
+    public static int GEARBOX = 7534;
+    public static int TURBINE = 7641;
     
-    
+    /*
     public static int GEARBOX;
-    public static int TURBINE;
+    public static int TURBINE;*/
 
 }

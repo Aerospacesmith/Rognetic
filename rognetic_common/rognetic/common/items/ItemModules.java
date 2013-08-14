@@ -21,6 +21,6 @@ public class ItemModules extends Item {
 
     @Override
     public void registerIcons(IconRegister par1IconRegister) {
-        this.itemIcon = par1IconRegister.registerIcon(ModInformation.ID + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+        this.itemIcon = par1IconRegister.registerIcon(ModInformation.ID.toLowerCase() + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
     }
 }
