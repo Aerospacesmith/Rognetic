@@ -1,4 +1,4 @@
-package mods.rognetic.common.items;
+package rognetic.common.items;
 
 public class ItemInfo {
 	

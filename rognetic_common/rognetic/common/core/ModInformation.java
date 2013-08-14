@@ -1,4 +1,4 @@
-package mods.rognetic.common.core;
+package rognetic.common.core;
 
 public class ModInformation {
 

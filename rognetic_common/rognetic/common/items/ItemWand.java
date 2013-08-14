@@ -1,4 +1,4 @@
-package mods.rognetic.common.items;
+package rognetic.common.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;

@@ -1,4 +1,4 @@
-package mods.rognetic.common.lib;
+package rognetic.common.lib;
 
 
 /**

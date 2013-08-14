@@ -1,7 +1,7 @@
-package mods.rognetic.common.core;
+package rognetic.common.core;
 
-import mods.rognetic.common.items.Items;
-import mods.rognetic.common.util.network.PacketHandler;
+import rognetic.common.items.Items;
+import rognetic.common.util.network.PacketHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;

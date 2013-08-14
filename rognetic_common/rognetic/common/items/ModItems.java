@@ -1,11 +1,10 @@
-package mods.rognetic.common.items;
+package rognetic.common.items;
 
-import mods.rognetic.common.lib.ItemIds;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import buildcraft.BuildCraftCore;
+import rognetic.common.lib.ItemIds;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 

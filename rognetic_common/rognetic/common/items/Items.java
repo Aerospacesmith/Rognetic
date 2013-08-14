@@ -1,4 +1,4 @@
-package mods.rognetic.common.items;
+package rognetic.common.items;
 
 import net.minecraft.item.Item;
 import cpw.mods.fml.common.registry.LanguageRegistry;

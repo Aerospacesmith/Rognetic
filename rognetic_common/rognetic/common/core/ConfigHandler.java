@@ -1,9 +1,9 @@
-package mods.rognetic.common.core;
+package rognetic.common.core;
 
 import java.io.File;
 
-import mods.rognetic.common.items.ItemInfo;
 import net.minecraftforge.common.Configuration;
+import rognetic.common.items.ItemInfo;
 
 public class ConfigHandler {
 	

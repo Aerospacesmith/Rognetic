@@ -1,7 +1,7 @@
-package mods.rognetic.common.items;
+package rognetic.common.items;
 
-import mods.rognetic.common.core.ModInformation;
-import mods.rognetic.common.core.Rognetic;
+import rognetic.common.core.ModInformation;
+import rognetic.common.core.Rognetic;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.Item;
 

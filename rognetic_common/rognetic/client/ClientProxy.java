@@ -1,6 +1,6 @@
-package mods.rognetic.client;
+package rognetic.client;
 
-import mods.rognetic.common.core.CommonProxy;
+import rognetic.common.core.CommonProxy;
 
 
 public class ClientProxy extends CommonProxy {
